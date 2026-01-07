@@ -1,0 +1,12 @@
+{
+  "name": "retell-sheets-webhook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @google-cloud/functions-framework --target=webhook --port=8080"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "googleapis": "^126.0.1"
+  }
+}
